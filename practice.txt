@@ -1,6 +1,7 @@
 hi hello
 I am robins Btech(Computer Sceince Engineer)
 <<<<<<< HEAD
+<<<<<<< HEAD
 I am from bihar,delhi
 I am working in witzeal
 =======
@@ -9,3 +10,8 @@ Hi hello
 Hi guys Robins Kumar here
 I am going to pune
 I am working in nic
+=======
+I am from bihar,delhi,pune
+I am working in witzeal
+I have to work in ai/mlI am Full Stack Java Developer
+>>>>>>> 18f52b984ca27aad173595e6ae930827e8640cce
