@@ -1,0 +1,26 @@
+
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_PASSWORD: secret123
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  api:
+    build: .
+    image: predict-api:ci
+    ports:
+      - "8000:8000" 
+    environment:
+      DB_HOST: db
+    depends_on:
+      - db
+
+volumes:
+  pgdata:
+
+  # docker run -d --name db --network app-net -e postgres_password=secret123 -v pgdata:/var/lib/postgresql/data postgres:16
+
+
