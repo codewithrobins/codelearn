@@ -1,10 +1,6 @@
 hi hello
 I am robins Btech(Computer Sceince Engineer)
-<<<<<<< HEAD
-I am from begusarai bihar
-=======
+
 I am from bihar,delhi,pune
 I am working in witzeal
->>>>>>> feature/robins
-
 
